@@ -1,0 +1,291 @@
+    1  is
+    2  dir
+    3  cd d
+    4  cd ..
+    5  cd ..
+    6  cd ..
+    7  cd d
+    8  dir
+    9  is
+   10  cd mkdir
+   11  mdir hello
+   12  cd ..
+   13  touch hello
+   14  is
+   15  dir
+   16  cd documents
+   17  dir
+   18  cd ..
+   19  cd ..
+   20  cd..
+   21  cd ..
+   22  cd ..
+   23  cd d
+   24  dir
+   25  mkdir
+   26  mkdir --help
+   27  touch hello
+   28  rm hello
+   29  cd ..
+   30  cd ..
+   31  cd..
+   32  cd ..
+   33  cd d
+   34  cd coding
+   35  cd practice
+   36  cd c#
+   37  cd practice
+   38  mkdir
+   39  mkdir --help
+   40  dot new
+   41  git --version
+   42  git config --global user.name "Tebogo"
+   43  git config --global user.email "herrold"
+   44  git user
+   45  git config user.name
+   46  mkdir
+   47  cd ..
+   48  cd ..
+   49  cd ..
+   50  cd d
+   51  is
+   52  dir
+   53  cd coding
+   54  dir
+   55  cd git
+   56  cd git and github
+   57  mkdir gitBasics
+   58  cd gitBasics
+   59  dir
+   60  git init
+   61  code .
+   62  touch index.html
+   63  dir
+   64  git status
+   65  git add index.html
+   66  git status
+   67  git status
+   68  git add --all
+   69  git status 
+   70  git commit -m "frist realease of Hello world"
+   71  git status
+   72  git log
+   73  git command -help
+   74  git help --all
+   75  git log
+   76  cd ..
+   77  cd ..
+   78  cd ..
+   79  cd d
+   80  dir
+   81  cd coding
+   82  dir
+   83  cd gitBasics
+   84  git log
+   85  git help --all
+   86  git status ??
+   87  git status A
+   88  git branch hello-world-images
+   89  git branch
+   90  git checkout hello-world-images
+   91  git brach
+   92  git branch
+   93  git checkout 
+   94  git branch
+   95  git checkout main
+   96  dir
+   97  code .
+   98  git status
+   99  git add.
+  100  git status 
+  101  git commit -m "added imgaes"
+  102  git status
+  103  git add --all
+  104  git status
+  105  git commit -m "added images to the file"
+  106  git log
+  107  dir
+  108  git checkout master
+  109  dir
+  110  git checkout -b emergency-fix
+  111  dir
+  112  git checkout hello-world-images
+  113  git add --all
+  114  git commit -m "fix the paragraph"
+  115  git checkout hello-world-images
+  116  git checkout emergency-fix
+  117  git status
+  118  git checkout master
+  119  git merge emergency-fix
+  120  git  checkout hello-world-images
+  121  git checkout master
+  122  git add --all
+  123  git status
+  124  git commit -m "added another images"
+  125  git checkout master
+  126  git merge hello-world-images
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m" merged with hello"
+  131  git branch -d hello-world-images
+  132  dir
+  133  git config --global user.name "Tebogo"
+  134  git config --global user.email "herroldmoremi@gmail.com"
+  135  cd ..
+  136  cd ..
+  137  cd ..
+  138  cd d
+  139  cd conding
+  140  cd coding
+  141  cd javascripts
+  142  dir
+  143  cd basics
+  144  mkdir javascript
+  145  cd javascripts
+  146  cd javascript
+  147  touch index.js
+  148  dir
+  149  code.
+  150  code .
+  151  git status
+  152  cd ..
+  153  git status
+  154  git init
+  155  git status
+  156  dir
+  157  cd ..
+  158  cd javascript
+  159  mkdir hellojava
+  160  cd hellojava
+  161  dir
+  162  touch index.js
+  163  dir
+  164  git init
+  165  code .
+  166  git status
+  167  ls
+  168  git add --all
+  169  git commit -m "initial file"
+  170  git branch
+  171  git checkout -b myBranch
+  172  cd ..
+  173  cd ..
+  174  cd ..
+  175  cd d
+  176  cd coding
+  177  cd hellojava
+  178  cd ..
+  179  cd ..
+  180  cd ..
+  181  cd ..
+  182  cd ..
+  183  cd d
+  184  cd coding
+  185  ls
+  186  rmdir hellojava
+  187  cd hellojava
+  188  ls
+  189  touch index.js
+  190  ls
+  191  rm index.js
+  192  rmdir javascripts
+  193  cd javascripts
+  194  ls
+  195  code .
+  196  cd ..
+  197  cd ..
+  198  cd ..
+  199  cd d
+  200  ls
+  201  cd 3rd Year Porject
+  202  cd 3rd Year Project'
+  203  q
+  204  clear
+  205  ls /
+  206  cd ..
+  207  l /
+  208  ls /
+  209  cd ..
+  210  cd ..
+  211  cd d
+  212  ls /
+  213  cd hone
+  214  cd home
+  215  man
+  216  cd ..
+  217  cd..
+  218  cd ..
+  219  cd ...
+  220  cd ..
+  221  cd d
+  222  cd coding
+  223  ls
+  224  cd hellojava
+  225  ls /
+  226  git ls /
+  227  ls /
+  228  cd ..
+  229  cd ..
+  230  cd ..
+  231  cd d
+  232  cd coding
+  233  cd ..
+  234  cd ACN
+  235  mkdir git-basic-exercises
+  236  cd git-basic-exercises
+  237  ls -a
+  238  git init
+  239  ls -a
+  240  git ststus
+  241  git status
+  242  touch README.md
+  243  git log
+  244  git add README.md
+  245  git status
+  246  git rm --cached README.md
+  247  git status
+  248  git add README.md
+  249  git commit -m "initial commit"
+  250  git log
+  251  q
+  252  nano README.md
+  253  cat README.md
+  254  git log
+  255  git status
+  256  git add --all
+  257  git status 
+  258  git commit -m "second commit"
+  259  nano README.md
+  260  git status
+  261  git add README.md
+  262  git commit -m "third commit"
+  263  git log
+  264  git checkout aac0059f2b31f9acdae6efa4faa56a1e04db36ea
+  265  cat README.md
+  266  git checkout main
+  267  git checkout master
+  268  cat README.md
+  269  git branch
+  270  git branch milkshake-flavours
+  271  git branch
+  272  git checkout milkshake-flavours
+  273  git branch
+  274  nano milkshakes.md
+  275  cat milkshakes.md
+  276  nano milkshakes.md
+  277  cat milkshakes.md
+  278  git status
+  279  git commit -m "added initial flavours"
+  280  git status
+  281  git add milkshakes.md
+  282  git status
+  283  git commit -m "added initial flavours"
+  284  git log
+  285  git status
+  286  git checkout master
+  287  git status
+  288  git log
+  289  git checkout -b history
+  290  git log
+  291  history> history.txt
